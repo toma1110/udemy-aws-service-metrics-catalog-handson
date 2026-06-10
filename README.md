@@ -1,35 +1,35 @@
-﻿# AWS Service Metrics Catalog Hand-on Resources
+﻿# AWSサービスメトリクスカタログ公開ハンズオン資料
 
-This repository contains the public hands-on materials for the Udemy course:
+このリポジトリは、Udemy講座 `AWSサービスメトリクスカタログ` の公開ハンズオン資料をまとめた場所です。
 
-- AWS Service Metrics Catalog course
+- AWSサービスメトリクスカタログ講座向け公開資料
 
-## Repository purpose
+## リポジトリの目的
 
-- Provide learner-facing reference materials without AWS account execution steps
-- Keep hands-on content concise and reproducible from `handson/` documents
+- AWSアカウント操作手順は含めず、受講者向けの参照資料を提供する
+- `handson/` 配下の文書を起点に、ハンズオン内容を再現しやすく保つ
 
-## Source of truth
+## ソース・オブ・トゥルース
 
-Source of truth lives in:
+本体は次のディレクトリを参照しています。
 
 - `C:\Users\toma1\Documents\udemy3\courses\c005-aws-service-metrics-catalog-course\handson\`
 
-## Contents
+## 含まれる内容
 
-- `handson/README.md` (hands-on usage instructions)
-- `handson/service_metric_catalog.md` (catalog checklist)
+- `handson/README.md`（ハンズオンの進め方）
+- `handson/service_metric_catalog.md`（サービス別メトリクスカタログ）
 
-## Safety notes
+## 安全面の注意
 
-- This repository contains documentation only. No AWS resources are created or destroyed from this repository.
-- No secrets or credentials are committed.
-- No binaries or large media are committed.
+- 文書のみを格納しています。ここからAWSリソースを作成・削除しません。
+- 機密情報（シークレットや認証情報）は含めません。
+- 大容量バイナリや画像・動画などは保管しません。
 
-## Cleanup and cost considerations
+## クリーンアップとコスト観点
 
-No AWS resources are provisioned by repository materials.
+リポジトリ素材自体でAWSをプロビジョニングしません。
 
-## Versioning
+## バージョン管理
 
-Use commit history and tags to identify stable points.
+安定版はコミット履歴とタグで管理します。
